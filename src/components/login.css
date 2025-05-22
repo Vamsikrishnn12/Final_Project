@@ -1,0 +1,91 @@
+.container {
+    background-color: #ffe4e6; /* Light pink background */
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+    border-top: 4px solid #ef4444; /* Red top border */
+  }
+  
+  .card h2 {
+    text-align: center;
+    color: #dc2626; /* Red text */
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .card p {
+    text-align: center;
+    color: #4b5563; /* Gray text */
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  label {
+    color: #374151; /* Dark gray text */
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d1d5db; /* Light gray border */
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  input:focus {
+    border-color: #f87171; /* Red border focus */
+    box-shadow: 0 0 5px rgba(239, 68, 68, 0.5);
+  }
+  
+  button {
+    background-color: #ef4444; /* Red button */
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #dc2626; /* Darker red */
+  }
+  
+  .login-link {
+    text-align: center;
+    margin-top: 12px;
+  }
+  
+  .login-link a {
+    color: #dc2626;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }

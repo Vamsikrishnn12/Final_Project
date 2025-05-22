@@ -1,0 +1,97 @@
+.doreg {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: white;
+  }
+  .doregmain{
+    background-color:#ffe4e6 ;
+    height: 100vh;
+    padding-top: 30px;
+  }
+  .message{
+    color:red;
+    font-size: 30px;
+  }
+  
+  .doreg h2 {
+    text-align: center;
+  }
+  
+ .donorregform form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .donorregform label {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .donorregform input, select {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+  }
+  .find-donor-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.search-box {
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  padding: 10px;
+  width: 250px;
+  margin-right: 10px;
+}
+
+.search-box button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.donor-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.donor-card {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.no-results {
+  color: red;
+  font-weight: bold;
+}
+
+  .donorregform button {
+    margin-top: 15px;
+    padding: 10px;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .donorregform button:hover {
+    background: darkred;
+  }
+  
+  .donorregform .message {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+  }
+  

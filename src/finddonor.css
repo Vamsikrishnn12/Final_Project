@@ -1,0 +1,40 @@
+.find-donor-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .search-box {
+    margin-bottom: 20px;
+  }
+  
+  .search-box input {
+    padding: 10px;
+    width: 250px;
+    margin-right: 10px;
+  }
+  
+  .search-box button {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .donor-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .donor-card {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .no-results {
+    color: red;
+    font-weight: bold;
+  }
+  
