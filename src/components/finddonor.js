@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-// import "./finddonor.css"; // Import your CSS for styling
+import "./finddonor.css"; // Import your CSS for styling
 
 const XANO_BASE_URL = "https://x8ki-letl-twmt.n7.xano.io/api:KCRiHHmr"; // Update if needed
 
@@ -66,6 +66,12 @@ const FindDonor = () => {
         ) : (
           <p className="no-results">No donors found in this location.</p>
         )}
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
       </div>
     </div>
   );

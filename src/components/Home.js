@@ -62,9 +62,9 @@ function Home() {
           <Link to="/Fitness" onClick={() => setMenuOpen(false)} className="fitlink">
             <h3 className="fitlist">Fitness Tracker</h3>
           </Link>
-          <Link to="/Medician" onClick={() => setMenuOpen(false)} className="medlink">
+          {/* <Link to="/Medician" onClick={() => setMenuOpen(false)} className="medlink">
             <h3 className="medlist">Medicine Show</h3>
-          </Link>
+          </Link> */}
 
           {!isLoggedIn ? (
             <>
@@ -129,26 +129,31 @@ function Home() {
           {/* Buttons */}
           <div className="btnhome">
             <Link to="/DonorList" className="btnhomedon"><h2>Find Donor</h2></Link>
-            <Link to="/fitnes" className="btnhomefit"><h2>Track Fitness</h2></Link>
-            <Link to="./medicine" className="btnhomemed"><h2>See Medicine</h2></Link>
+            <Link to="/fitness" className="btnhomefit"><h2>Track Fitness</h2></Link>
+            {/* <Link to="./medicine" className="btnhomemed"><h2>See Medicine</h2></Link> */}
           </div>
 
           {/* Footer */}
-          <div className="footer">
-            <div>
-              <h2>About Us:</h2>
-              <p></p>
-            </div>
-            <div>
-              <h2>Follow Us:</h2>
-              <a href="https://www.linkedin.com/in/vamsi-krishnavr-rr/" target="_blank" rel="noopener noreferrer" className="linkden">
-                <Linkedin size={32} className="text-blue-600 hover:text-blue-800" />
-              </a>
-              <a href="https://www.instagram.com/itz_me_vamsi66/?hl=en" target="_blank" rel="noopener noreferrer" className="insta">
-                <Instagram size={32} className="text-pink-600 hover:text-pink-800" />
-              </a>
-            </div>
-          </div>
+<div className="footer">
+  <div>
+    <h2>About Us:</h2>
+    <p><strong>About Lifeline Connect</strong></p>
+    <p>We're building a compassionate community where lives are saved by connection — not division. Lifeline Connect brings together donors and recipients in times of urgent need.</p>
+    <p>Developed with purpose by Vamsi Krishnan, Vishwa & Senthil.</p>
+  </div>
+  <div>
+    <h2>Follow Us:</h2>
+    <div className="social-icons">
+      <a href="https://www.linkedin.com/in/vamsi-krishnavr-rr/" target="_blank" rel="noopener noreferrer" className="linkden">
+        <Linkedin size={32} />
+      </a>
+      <a href="https://www.instagram.com/itz_me_vamsi66/?hl=en" target="_blank" rel="noopener noreferrer" className="insta">
+        <Instagram size={32} />
+      </a>
+    </div>
+  </div>
+</div>
+
         </div>
       </main>
     </div>

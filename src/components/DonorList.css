@@ -1,0 +1,66 @@
+.donoreglist6 {
+  padding: 30px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.dbuttons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+.donorregbtn, .donorfindbtn {
+  background-color: #dc2626; /* blood red */
+  color: #fff;
+  padding: 14px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.donorregbtn:hover, .donorfindbtn:hover {
+  background-color: #b91c1c;
+}
+
+.donlistheading {
+  font-size: 24px;
+  font-weight: 600;
+  color: #7f1d1d;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.intro-section p {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.why-donate h2, .blood-facts h2 {
+  color: #b91c1c;
+  margin-bottom: 12px;
+}
+
+.why-donate ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.why-donate li {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.blood-facts p {
+  font-size: 15px;
+  color: #555;
+  margin: 6px 0;
+}

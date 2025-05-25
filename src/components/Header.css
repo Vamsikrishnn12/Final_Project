@@ -357,7 +357,7 @@ header{
 .btnhomemed{
   text-decoration: none;
 }
-.footer{
+/* .footer{
   display: flex;
   justify-content: space-evenly;
   border: 2px solid red;
@@ -365,11 +365,17 @@ header{
   margin-top: 15PX;
   width: 100%;
   height: 300px;
-}
+} */
 .dbuttons{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  text-decoration: none;
+  
+}
+
+.donorfindbtn{
+  text-decoration: none;
 }
 .logoutbtn{
   background-color: white;
@@ -403,6 +409,88 @@ header{
   background-color: #fff;
   margin: 4px 0;
 }
+.footer {
+  background-color: #fff5f5; /* soft red tint */
+  color: #333;
+  padding: 40px 20px;
+  margin-top: 60px;
+  border-top: 2px solid #fca5a5;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.donlistheading{
+  text-align: center;
+
+  
+}
+.donlistheading h2{
+  text-align: center;
+  height: 100%;
+
+  
+}
+.donoreglist6{
+    background-color:#ffe4e6 ;
+}
+.home-container1{
+    background-color:#ffe4e6 ;
+    
+    
+}
+.home-container{
+    background-color:#ffe4e6 ;
+    
+    
+}
+
+@media (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+
+.footer h2 {
+  font-size: 20px;
+  color: #b91c1c; /* deep red for headings */
+  margin-bottom: 10px;
+}
+
+.footer p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.footer a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.linkden svg {
+  color: #2563eb; /* blue-600 */
+}
+
+.linkden:hover svg {
+  color: #1e40af; /* blue-800 */
+}
+
+.insta svg {
+  color: #db2777; /* pink-600 */
+}
+
+.insta:hover svg {
+  color: #9d174d; /* pink-800 */
+}
+
+.footer .social-icons {
+  display: flex;
+  gap: 16px;
+  margin-top: 10px;
+}
+
 
 @media screen and (max-width: 768px) {
   *{

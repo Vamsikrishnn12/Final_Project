@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 // import axios from "axios";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { registerDonor } from "../api/xano";
 
 import "./Donoereg.css";
@@ -12,12 +14,14 @@ const Donorreg = () => {
     location: "",
     lastDonationDate: "",
   });
+  const [menuOpen, setMenuOpen] = useState(false);
 
   const [message, setMessage] = useState("");
 
   // Handle input change
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
+    // const [menuOpen, setMenuOpen] = useState(false);
   };
 
   // Handle form submission
@@ -50,7 +54,20 @@ const Donorreg = () => {
   };
   
   return (
+    
     <div className="doregmain">
+       <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+                   <div className="hline"></div>
+                   <div className="hline"></div>
+                   <div className="hline"></div>
+                 </div>
+         <nav className={`nav-links ${menuOpen ? "open" : ""}`}>
+                   <Link to="/DoctorList" onClick={() => setMenuOpen(false)} className="doclink"><h3 className="doctorlist">Doctor Recommendation</h3></Link>
+                   <Link to="/DonorList" onClick={() => setMenuOpen(false)} className="donlink"><h3 className="bloodlist">Blood Donor Network</h3></Link>
+                   <Link to="/fitness" onClick={() => setMenuOpen(false)} className="fitlink"><h3 className="fitlist">Fitness Tracker</h3></Link> 
+                   </nav>
+                   <br>
+                   </br><br></br>
     <div className="doreg">
       <h2>Blood Donor Registration</h2>
       {message && <p className="message">{message}</p>}

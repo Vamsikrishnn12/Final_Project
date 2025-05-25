@@ -132,9 +132,9 @@ function Fitnesstracker({ token, userId }) {
           <Link to="/fitness" onClick={() => setMenuOpen(false)} className="fitlink">
             <h3 className="fitlist">Fitness Tracker</h3>
           </Link>
-          <Link to="/medicine" onClick={() => setMenuOpen(false)} className="medlink">
+          {/* <Link to="/medicine" onClick={() => setMenuOpen(false)} className="medlink">
             <h3 className="medlist">Medicine show</h3>
-          </Link>
+          </Link> */}
         </nav>
       </header>
 

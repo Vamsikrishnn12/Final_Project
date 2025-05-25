@@ -51,7 +51,7 @@ function Doctor() {
                        <Link to="/DoctorList" onClick={() => setMenuOpen(false)} className="doclink"><h3 className="doctorlist">Doctor Recommendation</h3></Link>
                        <Link to="/DonorList" onClick={() => setMenuOpen(false)} className="donlink"><h3 className="bloodlist">Blood Donor Network</h3></Link>
                        <Link to="/fitness" onClick={() => setMenuOpen(false)} className="fitlink"><h3 className="fitlist">Fitness Tracker</h3></Link>
-                       <Link to="/medicine" onClick={() => setMenuOpen(false)} className="medlink"><h3 className="medlist">Medicine show</h3></Link>
+                       {/* <Link to="/medicine" onClick={() => setMenuOpen(false)} className="medlink"><h3 className="medlist">Medicine show</h3></Link> */}
                        
                       
                      </nav>
@@ -86,7 +86,7 @@ function Doctor() {
           <p><strong>Languages:</strong> {doc.languages?.join(", ")}</p>
         </div>
         
-        ))}
+        ))}<br></br><br></br>
       </div>
     </div>
   );
