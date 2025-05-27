@@ -94,13 +94,15 @@ function Home() {
       {/* Main Content */}
       <main>
         <div className="mainheading">
-          {/* <p>
+          <p>
             Empowering Healthcare, <br /> One Connection at a Time – Find the Right Doctor,
             <br /> Save Lives Through Blood Donation, <br /> and Track Medical Needs Seamlessly
-          </p> */}
+          </p>
         </div>
+        <br></br>
 
         <div className="mainbody">
+          <br></br>
           <h1>Explore The Services</h1>
           <h2>Find The Doctor:</h2>
           {/* <div className="docimges">
